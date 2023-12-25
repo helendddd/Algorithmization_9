@@ -14,10 +14,6 @@ def linear_search(arr, target):
     return -1
 
 
-def log_n(x, a, b):
-    return a * np.log(x) + b
-
-
 def find_coeffs_line(xs, ys):
     sx = sum(xs)
     stime = sum(ys)
